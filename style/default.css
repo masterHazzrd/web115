@@ -90,6 +90,10 @@ main {
     text-align: justify;
 }
 
+main > ol > li {
+    color: black;
+}
+
 #zoom {
     transition: transform 2.5s;
     width: 463px;
