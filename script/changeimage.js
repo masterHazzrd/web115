@@ -3,7 +3,7 @@ const image = document.getElementById("changeimage");
 const imageContainer = document.getElementsByClassName("zoom");
 
 // Define the new image source for when hovering
-const newImageSrc = "";
+const newImageSrc = "../web115/images/";
 
 // Add event listeners for mouse hover and mouse out
 imageContainer.addEventListener("mouseover", function () {
