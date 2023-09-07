@@ -27,7 +27,7 @@ body {
     grid-template-columns: 12.5vw 74vw 12.5vw;
     grid-template-areas: "nav header header"
                          "nav header header"
-                         ". main ."
+                         "main main main"
                          "footer footer footer";
 
     font-size: 1em;
