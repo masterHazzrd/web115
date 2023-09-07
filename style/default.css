@@ -25,3 +25,23 @@ body {
     max-width: 100vw;
     min-width: 10vw;
 }
+
+.zoom {
+    transition: transform .3s;
+    width: 726px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.zoom:hover {
+    transform: scale(1.75);
+}
+
+.imgContainer {
+    border-radius: 25%;
+    box-shadow: 0 0 5px 10px rgba(255,95,0, .55);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: clamp(106px, 100%, 484px);
+}
