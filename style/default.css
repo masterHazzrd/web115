@@ -23,8 +23,8 @@ html {
 body {
     display: grid;
 
-    grid-template-rows: 15% 70% 15%;
-    grid-template-columns: 15% 35% 35% 15%;
+    grid-template-rows: 15% 35% 35% 15%;
+    grid-template-columns: 15% 70% 15%;
     grid-template-areas: "nav header header"
                          "nav header header"
                          ". main ."
@@ -95,7 +95,7 @@ main {
 
 footer {
     grid-area: footer;
-    
+
     font: small-caps clamp(.4em, 2vw, 1.2em) Trattatello;
 
     color: black;    
