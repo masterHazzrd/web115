@@ -100,7 +100,7 @@ footer {
     margin-right: 5vw;
     margin-top: 75px;
 
-    position: fixed;
+    position: absolute;
     bottom: 0;
 }
 
