@@ -83,6 +83,15 @@ main {
     width: clamp(106px, 100%, 484px);
 }
 
+main > .text_box > ol {
+    list-style-type: upper-roman;
+}
+
+.text_box {
+    margin: 3vh 10vw;
+    font-size: clamp(.8em, 3vw, 1.2em);
+}
+
 footer {
     grid-area: footer;
 
