@@ -93,7 +93,7 @@ main {
 
 .zoom {
     transition: transform 3s;
-    width: 726px;
+    width: 545px;
     height: auto;
     margin: 0 auto;
 }
@@ -104,11 +104,11 @@ main {
 
 .imgContainer {
     border-radius: 1%;
-    box-shadow: 0 0 4px 8px rgba(96, 231, 55, .6);
+    box-shadow: 0 0 4px 8px rgba(96, 231, 55, .4);
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: clamp(121px, 100%, 484px);
+    width: clamp(121px, 100%, 363px);
 }
 
 main > .text_box > ol {
