@@ -1,6 +1,6 @@
 // Get references to the image and container
 const image = document.getElementById("changeimage");
-const imageContainer = document.getElementsByClassName("zoom");
+const imageContainer = document.getElementsById("zoom");
 
 // Define the new image source for when hovering
 const newImageSrc = "/web115/images/meinfrontofsign.jpg";
