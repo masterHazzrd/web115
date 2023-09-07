@@ -3,7 +3,7 @@ const image = document.getElementById("changeimage");
 const imageContainer = document.getElementsByClassName("zoom");
 
 // Define the new image source for when hovering
-const newImageSrc = "../web115/images/meinfrontofsign.jpg";
+const newImageSrc = "/web115/images/meinfrontofsign.jpg";
 
 // Add event listeners for mouse hover and mouse out
 imageContainer.addEventListener("mouseover", function () {
@@ -13,5 +13,5 @@ imageContainer.addEventListener("mouseover", function () {
 
 imageContainer.addEventListener("mouseout", function () {
     // Restore the original image source on mouse out
-    image.src = "../web115/images/army_me.jpg";
+    image.src = "/workspaces/web115/images/army_me.jpg";
 });
