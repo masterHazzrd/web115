@@ -26,7 +26,7 @@ body {
     min-width: 10vw;
 }
 
-nav > ul {
+body > nav > ul {
     list-style-type: none;
 }
 
