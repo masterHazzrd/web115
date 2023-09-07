@@ -17,3 +17,15 @@ html {
     font-family: 'Caveat', cursive;
     font-family: 'Shadows Into Light', cursive;
 }
+
+body {
+    font: small-caps bold 3em;
+
+    width: 100vw;
+    max-width: 100vw;
+    min-width: 10vw;
+}
+
+nav {
+
+}
