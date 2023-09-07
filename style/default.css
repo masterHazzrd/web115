@@ -123,7 +123,7 @@ main > .text_box > ol {
 footer {
     grid-area: footer;
 
-    font-size: clamp(.4em, 2vw, 1.4em);
+    font-size: clamp(.55em, 3vw, 1.1em);
 
     color: black;    
 
