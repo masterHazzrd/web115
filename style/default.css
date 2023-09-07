@@ -89,14 +89,14 @@ main {
     text-align: justify;
 }
 
-.zoom {
+#zoom {
     transition: transform 10ms;
     width: 463px;
     height: auto;
     margin: 0 auto;
 }
 
-.zoom:hover {
+#zoom:hover {
     transform: scale(1.5);
 }
 
