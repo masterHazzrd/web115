@@ -92,14 +92,14 @@ main {
 }
 
 .zoom {
-    transition: transform 3s;
-    width: 545px;
+    transition: transform 3.5ms;
+    width: 463px;
     height: auto;
     margin: 0 auto;
 }
 
 .zoom:hover {
-    transform: scale(1.25);
+    transform: scale(1.5);
 }
 
 .imgContainer {
@@ -108,7 +108,7 @@ main {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: clamp(121px, 85%, 363px);
+    width: clamp(103px, 85%, 309px);
 }
 
 main > .text_box > ol {
