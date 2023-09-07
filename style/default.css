@@ -103,6 +103,9 @@ footer {
     margin-left: 5vw;
     margin-right: 5vw;
     margin-top: 75px;
+
+    position: fixed;
+    bottom: 0;
 }
 
 #f_container {
