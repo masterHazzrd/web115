@@ -96,7 +96,7 @@ main {
 footer {
     grid-area: footer;
 
-    font: small-caps clamp(.4em, 2vw, 1.2em) Trattatello;
+    font-size: clamp(.4em, 2vw, 1.2em);
 
     color: black;    
 
