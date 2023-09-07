@@ -50,7 +50,7 @@ header {
 }
 
 .imgContainer {
-    border-radius: 25%;
+    border-radius: 50%;
     box-shadow: 0 0 5px 10px rgba(255,95,0, .55);
     display: block;
     margin-left: auto;
