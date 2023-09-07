@@ -59,7 +59,7 @@ header {
     border: 1px solid #A7CD3A
 }
 
-header > figure {
+header > figure > figcaption {
     font-size: clamp(.7em, 3vw, 1.1em);
 }
 
