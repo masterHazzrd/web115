@@ -138,6 +138,10 @@ footer {
     bottom: 0;
 }
 
+.brand {
+    text-align: center;
+}
+
 #f_container {
     margin: 25px 75px;
 
@@ -149,6 +153,13 @@ footer {
     text-decoration: none;
 }
 
-.brand {
+#v_container {
+    margin: 25px 75px;
+
     text-align: center;
+    text-shadow: 1px 1px 3px rgb(96, 231, 55);
+}
+
+#v_container a {
+    text-decoration: none;
 }
