@@ -24,7 +24,7 @@ body {
     display: grid;
 
     grid-template-rows: 7.5vh auto auto 7.5vh;
-    grid-template-columns: 12.5vw 74vw 12.5vw;
+    grid-template-columns: 12.25vw 73vw 12.25vw;
     grid-template-areas: "nav nav nav"
                          "header header header"
                          "main main main"
