@@ -41,6 +41,12 @@ body > nav > ul {
     list-style-type: none;
 }
 
+nav {
+    grid-area: nav;
+
+    border: 1px solid #A7CD3A
+}
+
 header {
     grid-area: header;
 
