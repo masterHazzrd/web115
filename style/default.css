@@ -90,6 +90,10 @@ main {
     text-align: justify;
 }
 
+main > h2 {
+    text-align: center;
+}
+
 main > ol > li {
     color: black;
 
