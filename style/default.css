@@ -23,8 +23,8 @@ html {
 body {
     display: grid;
 
-    grid-template-rows: 14.5vw 39.5vw 39.5vw 4.5vw;
-    grid-template-columns: 12.5vh 75vh 12.5vh;
+    grid-template-rows: 14.5vw auto auto 4.5vw;
+    grid-template-columns: 12.5vh auto 12.5vh;
     grid-template-areas: "nav header header"
                          "nav header header"
                          ". main ."
