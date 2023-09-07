@@ -30,6 +30,13 @@ body > nav > ul {
     list-style-type: none;
 }
 
+header {
+    margin: 7px 21px;
+    font-size: clamp(1.85em, 5vw, 4.5em);
+    text-align: center;
+    text-decoration: overline underline;
+}
+
 .zoom {
     transition: transform .3s;
     width: 726px;
