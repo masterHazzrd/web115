@@ -37,12 +37,40 @@ body {
     min-width: 10vw;
 }
 
+nav {
+    grid-area: nav;
+}
+
 body > nav > ul {
     list-style-type: none;
 }
 
-nav {
-    grid-area: nav;
+.split_navbar {
+    overflow: hidden;
+    width: 99vw;   
+}
+
+.split_navbar a {
+    color: black;
+
+    float: left;
+
+    font-size: clamp(1em, 3vw, 1.85em); 
+
+    text-align: center;
+    text-decoration: none;
+
+    letter-spacing: 2px;
+    
+    padding: 8px 16px;  
+}
+
+.split_navbar a:hover {
+    text-shadow: 1px 2px 6px #FF5E00;
+}
+
+.split_navbar a.split {
+    float: right;
 }
 
 header {
