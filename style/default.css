@@ -102,7 +102,7 @@ main {
 
 .imgContainer {
     border-radius: 1%;
-    box-shadow: 1px 1px 3px rgb(96, 231, 55);
+    box-shadow: 1px 1px 5px rgb(96, 231, 55);
     display: block;
     margin-left: auto;
     margin-right: auto;
