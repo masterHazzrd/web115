@@ -90,7 +90,7 @@ main {
 }
 
 #zoom {
-    transition: transform 10ms;
+    transition: transform 3.5s;
     width: 463px;
     height: auto;
     margin: 0 auto;
