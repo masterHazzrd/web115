@@ -92,7 +92,7 @@ main {
 footer {
     grid-area: footer;
 
-    font-size: clamp(.4em, 2vw, 1.2em);
+    font-size: clamp(.4em, 2vw, 1.4em);
 
     color: black;    
 
