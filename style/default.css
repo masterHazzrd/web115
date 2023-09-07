@@ -53,6 +53,10 @@ header {
     border: 1px solid #A7CD3A
 }
 
+header > figure > figcaption {
+    font-size: clamp(.75em, 3vw, 1.15em);
+}
+
 main {
     margin: 7px 21px;
 
