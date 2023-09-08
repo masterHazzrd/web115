@@ -74,7 +74,7 @@ body > nav > ul {
 header {
     grid-area: header;
 
-    margin: 7px 21px;
+    /*margin: 7px 21px;*/
 
     font-size: clamp(.8em, 5vw, 1.6em);
 
