@@ -12,7 +12,3 @@ imgcontainer.addEventListener("mouseover", function chngImg() {
 imgcontainer.addEventListener("mouseout", function chngImg() {
     img.src = "../web115/images/meandwifeyatconcert.jpg";
 });
-
-imgcontainer.addEventListener("load", function chngImg() {
-    img.src = originalImg;
-});
