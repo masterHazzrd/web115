@@ -82,6 +82,11 @@ header {
     text-shadow: 1px 2px 3px rgb(96, 231, 55);
 }
 
+hr {
+    border: 10px solid black;
+    box-shadow: 2px 2px 5px rgb(96, 231, 55);
+}
+
 main {
     grid-area: main;
 
