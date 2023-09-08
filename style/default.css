@@ -145,6 +145,8 @@ footer {
 #f_container {
     margin: 25px 75px;
 
+    color: black;
+
     text-align: center;
     text-shadow: 1px 1px 3px rgb(96, 231, 55);
 }
