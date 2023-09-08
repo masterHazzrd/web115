@@ -12,3 +12,7 @@ imgcontainer.addEventListener("mouseover", function chngImg() {
 imgcontainer.addEventListener("mouseout", function chngImg() {
     img.src = "../web115/images/meandwifeyatconcert.jpg";
 });
+
+imgcontainer.addEventListener("unload", function chngImg() {
+    img.src = "../web115/images/army_me.jpg"
+});
