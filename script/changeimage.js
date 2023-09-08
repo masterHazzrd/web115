@@ -1,12 +1,15 @@
-const imgcontainer = document.getElementById("zoom");
-const img = document.getElementById("changeimg");
+const images = document.querySelectorAll(".changeimg");
 
-const newImgSrc = "/web115/images/meinfrontofsign.jpg";
+let currentIndex = 0;
 
-imgcontainer.addEventListener("mouseover", function chngImg() {
-    img.src = newImgSrc;
-});
+const interval = 4500;
 
-imgcontainer.addEventListener("mouseout", function chngImg() {
-    img.src = "/web115/images/meandwifeyatconcert.jpg";
-});
+function scrollImg() {
+    images[currentIndex].computedStyleMap.opacity = 0;
+    currentIndex = (currentIndex + 1) % images.length;
+    images[currentIndex].computedStyleMap.opacity = 1;
+}
+
+changeImage();
+
+setInterval(changeImage, interval);
