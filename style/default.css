@@ -100,6 +100,8 @@ main > .text_box > ol {
     list-style-type: upper-roman;
 }
 
+/*
+
 #zoom {
     transition: transform 2.5s;
     width: 463px;
@@ -110,6 +112,8 @@ main > .text_box > ol {
 #zoom:hover {
     transform: scale(1.5);
 }
+
+*/
 
 .imgContainer {
     border-radius: 1%;
