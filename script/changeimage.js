@@ -18,7 +18,7 @@ function changeImage() {
 const interval = setInterval(changeImage, 3000);
 
 // Reset to the first image after going through all images
-imgChngr.addEventListener("load", function () {
+imgChngr.addEventListener("load", function changeImage() {
     clearInterval(interval);
     setTimeout(function () {
         currentIndex = 0;
