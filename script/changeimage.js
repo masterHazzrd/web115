@@ -1,15 +1,12 @@
-const images = document.querySelectorAll(".changeimg");
+const imgcontainer = document.getElementById("zoom");
+const img = document.getElementById("changeimg");
 
-let currentIndex = 0;
+const newImgSrc = "/web115/images/meinfrontofsign.jpg";
 
-const interval = 4500;
+imgcontainer.addEventListener("mouseover", function chngImg() {
+    img.src = newImgSrc;
+});
 
-function scrollImg() {
-    images[currentIndex].computedStyleMap.opacity = 0;
-    currentIndex = (currentIndex + 1) % images.length;
-    images[currentIndex].computedStyleMap.opacity = 1;
-}
-
-changeImage();
-
-setInterval(changeImage(), interval);
+imgcontainer.addEventListener("mouseout", function chngImg() {
+    img.src = "/web115/images/meandwifeyatconcert.jpg";
+});
