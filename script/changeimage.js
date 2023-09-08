@@ -1,28 +1,18 @@
-const images = [
-    "/images/meinfrontofsign.jpg",
-    "/images/biohard_skull_2.jpg",
-    "/images/meandwifeyatconcert.jpg",
-    "/images/biohazard_skul.jpg",
-    // Add more image URLs here
-];
+const imgcontainer = document.getElementById("zoom");
+const img = document.getElementById("changeimg");
 
-const imgChngr = document.getElementById("changeimg");
-let currentIndex = 0;
+const originalImg = img.scr;
 
-function changeImage() {
-    imgChngr.src = images[currentIndex];
-    currentIndex = (currentIndex + 1) % images.length;
-}
+const newImgSrc = "/web115/images/meinfrontofsign.jpg";
 
-// Change image every 3 seconds (adjust the time interval as needed)
-const interval = setInterval(changeImage, 3000);
+imgcontainer.addEventListener("mouseover", function chngImg() {
+    img.src = newImgSrc;
+});
 
-// Reset to the first image after going through all images
-imgChngr.addEventListener("load", function changeImage() {
-    clearInterval(interval);
-    setTimeout(function () {
-        currentIndex = 0;
-        changeImage();
-        interval = setInterval(changeImage, 3000);
-    }, 3000); // Delay before resetting (3 seconds in this example)
+imgcontainer.addEventListener("mouseout", function chngImg() {
+    img.src = "/web115/images/meandwifeyatconcert.jpg";
+});
+
+imgcontainer.addEventListener("load", function chngImg() {
+    img.src = originalImg;
 });
