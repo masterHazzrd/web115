@@ -7,4 +7,4 @@ setInterval (function(){
   }
   document.getElementById("chgImg").src = Imgs[index];
   index++;
-} , 4000);
+} , 2585);
