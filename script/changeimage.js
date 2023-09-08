@@ -8,5 +8,5 @@ imgcontainer.addEventListener("mouseover", function chngImg() {
 });
 
 imgcontainer.addEventListener("mouseout", function chngImg() {
-    img.src = "/web115/images/army_me.jpg";
+    img.src = "/web115/images/biohazrd_skull_2.jpg";
 });
