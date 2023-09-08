@@ -12,5 +12,5 @@ imgcontainer.addEventListener("mouseout", function chngImg() {
 });
 
 imgcontainer.setTimeout(function chngImg() {
-        image.src = "/web115/images/army_me.jpg";
+        image.src = "../web115/images/army_me.jpg";
     }, 4500); 
