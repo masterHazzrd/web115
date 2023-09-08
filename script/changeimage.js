@@ -1,8 +1,8 @@
 const images = [
-    "/web115/images/meinfrontofsign.jpg",
-    "/web115/images/biohard_skull_2.jpg",
-    "/web115/images/meandwifeyatconcert.jpg",
-    "/web115/images/biohazard_skul.jpg",
+    "/images/meinfrontofsign.jpg",
+    "/images/biohard_skull_2.jpg",
+    "/images/meandwifeyatconcert.jpg",
+    "/images/biohazard_skul.jpg",
     // Add more image URLs here
 ];
 
