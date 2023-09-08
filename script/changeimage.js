@@ -13,7 +13,7 @@ imgcontainer.addEventListener("mouseout", function chngImg() {
     img.src = "/web115/images/meandwifeyatconcert.jpg";
 });
 
-img.addEventListener("load", function chngImg() {
+imgcontainer.addEventListener("load", function chngImg() {
     setTimeout(function chngImg() {
         img.src = originalImg;
     }, 3000);
