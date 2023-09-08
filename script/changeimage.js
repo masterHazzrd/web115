@@ -1,7 +1,7 @@
 const imgcontainer = document.getElementById("zoom");
 const img = document.getElementById("changeimg");
 
-const originalImg = img.scroll;
+const originalImg = img.scr;
 
 const newImgSrc = "/web115/images/meinfrontofsign.jpg";
 
