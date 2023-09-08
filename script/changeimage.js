@@ -1,7 +1,7 @@
 const imgcontainer = document.getElementById("zoom");
 const img = document.getElementById("changeimg");
 
-const originalImg = img.scr;
+const originalImg = "../web115/images/army_me.jpg";
 
 const newImgSrc = "../web115/images/meinfrontofsign.jpg";
 
