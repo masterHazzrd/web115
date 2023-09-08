@@ -12,4 +12,4 @@ function scrollImg() {
 
 changeImage();
 
-setInterval(changeImage, interval);
+setInterval(changeImage(), interval);
