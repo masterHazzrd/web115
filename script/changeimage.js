@@ -8,5 +8,5 @@ imgcontainer.addEventListener("mouseover", function chngImg() {
 });
 
 imgcontainer.addEventListener("mouseout", function chngImg() {
-    img.src = "/web115/images/biohazrd_skull_2.jpg";
+    img.src = "/web115/images/biohard_skull_2.jpg";
 });
