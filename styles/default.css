@@ -14,8 +14,7 @@ html {
     margin: 0;
     padding: 0;
 
-    font-family: 'Caveat', cursive;
-    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Caveat', serif;
 }
 
 body {
@@ -41,6 +40,14 @@ h2 {
     font-size: 3.5em;
 }
 
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: brown;
+}
+
 figcaption {
     text-align: center;
     font-style: italic;
@@ -52,6 +59,10 @@ nav {
 
 body > nav > ul {
     list-style-type: none;
+}
+
+li > strong {
+    text-shadow: 1px 1px 3px rgb(96, 231, 55);
 }
 
 .split_navbar {
