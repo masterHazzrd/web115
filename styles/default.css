@@ -36,6 +36,15 @@ body {
     height: auto;
 }
 
+h2 {
+    text-align: center;
+}
+
+figcaption {
+    text-align: center;
+    font-style: italic;
+}
+
 nav {
     grid-area: nav;
 }
