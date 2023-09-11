@@ -1,10 +1,10 @@
-var Imgs = ["../web115/images/army_me.jpg", "../web115/images/meinfrontofsign.jpg", "../web115/images/meandwifeyatconcert.jpg"]
+var imgs = ["images/army_me.jpg", "images/meinfrontofsign.jpg", "images/meandwifeyatconcert.jpg"]
 
 var index = 0;
 setInterval (function(){
-  if (index == Imgs.length) {
+  if (index == imgs.length) {
     index = 0;
   }
-  document.getElementById("chgImg").src = Imgs[index];
+  document.getElementById("chgImg").src = imgs[index];
   index++;
 } , 2585);
