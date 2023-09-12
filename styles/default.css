@@ -37,15 +37,7 @@ body {
 
 h2 {
     text-align: center;
-    font-size: 3.5em;
-}
-
-a {
-    text-decoration: none;
-}
-
-a:hover {
-    color: brown;
+    font-size: 2.85em;
 }
 
 figcaption {
@@ -62,10 +54,13 @@ body > nav > ul {
 }
 
 li > strong {
-    text-shadow: 1px 1px 3px rgb(96, 231, 55);
+    text-shadow: 1px 1px 3px rgb(96, 231, 55)
 }
 
+/* do noit delete as you may needs this code another day
+
 .split_navbar {
+    display: flex;
     overflow: hidden;
     width: 99vw;   
 }
@@ -89,23 +84,41 @@ li > strong {
     text-shadow: 1px 1px 3px rgb(96, 231, 55);
 }
 
-.split_navbar a.split {
-    float: right;
+.split_navbar a.push_right {
+    margin-right: auto;
+}
+
+*/
+
+.top-split-nav {
+    display: flex;
+
+    color: black;
+
+    font-size: clamp(.6em, 3vw, 1.25em);
+    letter-spacing: 2px;
+}
+
+.top-split-nav a:hover {
+    text-shadow: 1px 1px 3px rgb(96, 231, 55);
+}
+
+.push-right {
+    display: flex;
+    margin-left: auto;
 }
 
 header {
     grid-area: header;
 
-    /*margin: 7px 21px;*/
-
-    font-size: clamp(.8em, 5vw, 1.6em);
+    font-size: clamp(.85em, 5vw, 1.7em);
 
     text-align: center;
     text-shadow: 1px 2px 3px rgb(96, 231, 55);
 }
 
 header > hr {
-    border: 10px solid black;
+    border: 3px solid black;
     box-shadow: 2px 2px 5px rgb(96, 231, 55);
 }
 
