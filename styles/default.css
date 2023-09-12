@@ -11,95 +11,42 @@
 */
 
 html {
-    margin: 0;
-    padding: 0;
-
-    font-family: 'Caveat', serif;
+    font-family: 'Nova Mono', monospace;
 }
 
 body {
     display: grid;
 
     grid-template-rows: 7.5vh auto auto 7.5vh;
-    grid-template-columns: 12.25vw 73vw 12.25vw;
+    grid-template-columns: 12.5vw auto 12.5vw;
     grid-template-areas: "nav nav nav"
                          "header header header"
                          "main main main"
                          "footer footer footer";
-
-    font-size: 1em;
-
-    width: 100vw;
-    max-width: 97vw;
-    min-width: 10vw;
-    height: auto;
-}
-
-h2 {
-    text-align: center;
-    font-size: 2.85em;
-}
-
-figcaption {
-    text-align: center;
-    font-style: italic;
 }
 
 nav {
     grid-area: nav;
 }
 
-body > nav > ul {
+nav ul {
     list-style-type: none;
 }
 
-li > strong {
-    text-shadow: 1px 1px 3px rgb(96, 231, 55)
-}
-
-/* do noit delete as you may needs this code another day
-
-.split_navbar {
-    display: flex;
-    overflow: hidden;
-    width: 99vw;   
-}
-
-.split_navbar a {
-    color: black;
-
-    float: left;
-
-    font-size: clamp(.6em, 3vw, 1.15em); 
-
-    text-align: center;
-    text-decoration: none;
-
-    letter-spacing: 2px;
-    
-    padding: 8px 16px;  
-}
-
-.split_navbar a:hover {
-    text-shadow: 1px 1px 3px rgb(96, 231, 55);
-}
-
-.split_navbar a.push_right {
-    margin-right: auto;
-}
-
-*/
-
 .top-split-nav {
     display: flex;
+    
+    padding-left: 0;
 
-    color: black;
-
-    font-size: clamp(.6em, 3vw, 1.25em);
-    letter-spacing: 2px;
+    font-size: clamp(.7em, 3vw, 1.4em);
 }
 
-.top-split-nav a:hover {
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
     text-shadow: 1px 1px 3px rgb(96, 231, 55);
 }
 
@@ -107,17 +54,16 @@ li > strong {
     display: flex;
     margin-left: auto;
 }
-
+/* header, main and other formatting goes below here but before footer */
 header {
     grid-area: header;
 
     font-size: clamp(.85em, 5vw, 1.7em);
-
     text-align: center;
     text-shadow: 1px 2px 3px rgb(96, 231, 55);
 }
 
-header > hr {
+hr {
     border: 3px solid black;
     box-shadow: 2px 2px 5px rgb(96, 231, 55);
 }
@@ -125,49 +71,9 @@ header > hr {
 main {
     grid-area: main;
 
-    margin: 7px 21px;
-
-    text-align: justify;
+    text-align: center;
 }
 
-main > ol > li {
-    color: black;
-
-    text-decoration: none;
-}
-
-main > .text_box > ol {
-    list-style-type: upper-roman;
-}
-
-/*
-
-#zoom {
-    transition: transform 2.5s;
-    width: 463px;
-    height: auto;
-    margin: 0 auto;
-}
-
-#zoom:hover {
-    transform: scale(1.5);
-}
-
-*/
-
-.imgContainer {
-    border-radius: 1%;
-    box-shadow: 2px 2px 6px rgb(96, 231, 55);
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: clamp(103px, 85%, 309px);
-}
-
-.text_box {
-    margin: 3vh 10vw;
-    font-size: clamp(.8em, 3vw, 1.2em);
-}
 
 footer {
     grid-area: footer;
@@ -192,11 +98,6 @@ footer {
     color: black;
 
     text-align: center;
-    text-shadow: 1px 1px 3px rgb(96, 231, 55);
-}
-
-#f_container a {
-    text-decoration: none;
 }
 
 #v_container {
