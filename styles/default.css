@@ -25,6 +25,10 @@ body {
                          "footer footer footer";
 }
 
+strong {
+    text-shadow: 1px 1px 3px rgb(96, 231, 55);
+}
+
 nav {
     grid-area: nav;
 }
@@ -79,9 +83,10 @@ h2{
 }
 
 .text_box {
+    margin-left: 3vw;
+    margin-right: 5vw;
     text-align: justify;
 }
-
 
 footer {
     grid-area: footer;
