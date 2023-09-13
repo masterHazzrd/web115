@@ -83,6 +83,7 @@ h2{
 }
 
 .text_box {
+    margin-top: 100px;
     margin-left: 3vw;
     margin-right: 5vw;
     text-align: justify;
