@@ -91,6 +91,12 @@ h2{
     text-align: justify;
 }
 
+/*code below is for brand html page main logo area*/
+
+.main-logo-box {
+    
+}
+
 footer {
     grid-area: footer;
 
