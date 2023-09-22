@@ -81,7 +81,11 @@ main {
 }
 
 h2{
-    font-size: 2.25em;
+    font-size: 2.5em;
+}
+
+h3 {
+    font-size: 2em;
 }
 
 .text_box {
@@ -94,7 +98,15 @@ h2{
 /*code below is for brand html page main logo area*/
 
 .main-logo-box {
+    width: 97vw;
+    height: auto;
+
+    margin-left: auto;
+    margin-right: auto;
     
+    box-sizing: border-box;
+    border: 1px solid rgb(96, 231, 55);
+    border-radius: 10px;
 }
 
 footer {
