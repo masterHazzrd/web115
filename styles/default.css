@@ -58,7 +58,9 @@ a:hover {
     display: flex;
     margin-left: auto;
 }
+
 /* header, main and other formatting goes below here but before footer */
+
 header {
     grid-area: header;
 
