@@ -11,6 +11,7 @@
 */
 
 html {
+    background-color: #FFFFFA;
     font-family: 'Orbitron', sans-serif;
 }
 
@@ -109,6 +110,10 @@ h3 {
     box-sizing: border-box;
     border: 1px solid rgb(96, 231, 55);
     border-radius: 10px;
+}
+
+.main-logo-box > img{
+    mix-blend-mode: #FFFFFA;
 }
 
 .mission-box {
