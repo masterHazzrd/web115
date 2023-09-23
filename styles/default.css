@@ -11,7 +11,7 @@
 */
 
 html {
-    background-color: #FFFFFA;
+    background-color: #f0f0f0;
     font-family: 'Orbitron', sans-serif;
 }
 
@@ -120,8 +120,23 @@ h3 {
     text-align: justify;
     letter-spacing: 2px;
 
-    margin-left: 4%;
-    margin-right: 4%;
+    margin: 0% 5%;
+}
+
+.color-pallette-box {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+
+    margin: 0% 25%;
+}
+
+.circle {
+    width: 75px;
+    height: 75px;   
+
+    border: 1px solid #000000;
+    border-radius: 50%;
 }
 
 footer {
