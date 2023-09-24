@@ -120,7 +120,8 @@ h3 {
     text-align: justify;
     letter-spacing: 2px;
 
-    margin: 0% 10%;
+    margin: 0% 9%;
+    padding: 0% 3%;
 }
 
 .color-pallette-box {
@@ -131,12 +132,21 @@ h3 {
     margin: 0% 25%;
 }
 
-.circle {
+.card-box {
+    width: 100px;
+    height: 100px;
+
+    margin: 1% auto;
+}
+
+.tile {
     width: 75px;
-    height: 75px;   
+    height: 75px;
+    
+    margin: 1% auto;
 
     border: 1px solid #000000;
-    border-radius: 50%;
+    border-radius: 10px;
 }
 
 footer {
