@@ -86,7 +86,7 @@ h2{
 }
 
 h3 {
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
 .text_box {
@@ -148,6 +148,13 @@ h3 {
 
     border: 1px solid #000000;
     border-radius: 5px;
+}
+
+.font-box {
+    margin-bottom: 12vh;
+
+    font-size: clamp(.65em, 5vw, 1.3em);
+    letter-spacing: 9px;
 }
 
 footer {
