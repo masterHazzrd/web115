@@ -38,10 +38,14 @@ nav ul {
     list-style-type: none;
 }
 
+nav ul li {
+    padding: 0px 10px;
+}
+
 .top-split-nav {
     display: flex;
-    
-    padding-left: 0;
+
+    padding-left: 0px;
 
     font-size: clamp(.6em, 2vw, 1.2em);
 }
@@ -111,10 +115,6 @@ h3 {
     box-shadow: 0px 0px 6px #000000;
     border: 3px solid rgb(96, 231, 55);
     border-radius: 8px;
-}
-
-.main-logo-box > img{
-    mix-blend-mode: #FFFFFA;
 }
 
 .mission-box {
