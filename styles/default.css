@@ -86,6 +86,8 @@ main {
 }
 
 main p {
+    margin: 25px 75px;
+
     text-align: justify;
     letter-spacing: 1px;
 }
