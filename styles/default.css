@@ -18,7 +18,7 @@ html {
 body {
     display: grid;
 
-    grid-template-rows: 7.5vh auto auto 7.5vh;
+    grid-template-rows: 10vh auto auto 10vh;
     grid-template-columns: 12.5vw auto 12.5vw;
     grid-template-areas: "nav nav nav"
                          "header header header"
@@ -168,8 +168,6 @@ footer {
     font-size: clamp(.55em, 3vw, 1.1em);
 
     color: black;
-
-    margin-top: 50px;
 }
 
 .brand {
