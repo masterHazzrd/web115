@@ -85,6 +85,11 @@ main {
     text-align: center;
 }
 
+main p {
+    text-align: justify;
+    letter-spacing: 1px;
+}
+
 h2{
     font-size: 2.5em;
 }
@@ -163,6 +168,8 @@ footer {
     font-size: clamp(.55em, 3vw, 1.1em);
 
     color: black;
+
+    margin-top: 50px;
 }
 
 .brand {
