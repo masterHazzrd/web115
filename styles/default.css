@@ -86,7 +86,7 @@ main {
 }
 
 main p {
-    margin: 25px 75px;
+    margin: 25px auto;
 
     text-align: justify;
     letter-spacing: 1px;
@@ -182,6 +182,8 @@ footer {
     color: black;
 
     text-align: center;
+
+    padding: 45px 0;
 }
 
 #v_container {
