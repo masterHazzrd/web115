@@ -126,7 +126,7 @@ footer {
 
 .index-main {}
 
-.index-main, .home-main h2 {
+.index-main h2 {
     font-size: clamp(1.25rem, 5vw, 2.5rem);
 }
 
