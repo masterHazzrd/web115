@@ -144,3 +144,9 @@ footer {
 .index-main a:visited{
     color: rgb(0, 0, 0);
 }
+
+/* Code below is for the styling of the index page */
+
+.home-main h2 {
+    font-size: clamp(1.25rem, 5vw, 2.5rem);
+}
