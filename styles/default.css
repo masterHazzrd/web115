@@ -63,7 +63,7 @@ header {
 }
 
 h1 {
-    font-size: 3rem;
+    font-size: 3.5rem;
 
     text-align: center;
 }
@@ -112,7 +112,7 @@ footer {
     padding: 14px 16px;
 }
 
-.foot-nav a:hover {
+.foot-nav a:hover, .index-main p strong {
     text-shadow: 0px 1px 3px rgb(96, 231, 55);
 }
 
@@ -120,4 +120,21 @@ footer {
     float: right;
 
     padding: 14px 16px;
+}
+
+/* Code below is for the styling of the index page */
+
+.index-main {}
+
+.index-main h2 {
+    font-size: clamp(1.25rem, 5vw, 2.5rem);
+}
+
+.index-main p {
+    padding: 0 85px;
+    font-size: clamp(.5rem, 5vw, 1rem);
+}
+
+.index-main a {
+    text-decoration: none;
 }
