@@ -10,192 +10,114 @@
     border: 1px solid rgb(96, 231, 55);
 */
 
-html {
-    background-color: #f0f0f0;
+* {
+    box-sizing: border-box;
+
+    margin: 0;
+    padding: 0;
+    
+    font-size: 18px;
     font-family: 'Orbitron', sans-serif;
+    /*font-family: Georgia, 'Times New Roman', Times, serif;*/
 }
 
 body {
-    display: grid;
-
-    grid-template-rows: 10vh auto auto 10vh;
-    grid-template-columns: 12.5vw auto 12.5vw;
-    grid-template-areas: "nav nav nav"
-                         "header header header"
-                         "main main main"
-                         "footer footer footer";
+    width: 100%;
 }
 
-strong {
-    text-shadow: 0px 1px 3px rgb(96, 231, 55);
-}
+/* Nav styling below */
 
 .top-nav {
-    grid-area: nav;
-
-    display: flex;
-
-    padding: 0 5px;
+    overflow: hidden;
 }
 
-.push-right {
-    margin-left: auto;
-}
+.top-nav a {
+    float: left;
+    
+    padding: 14px 16px;
 
-nav ul {
-    list-style: none;
-}
-
-a {
     color: black;
+    
+    text-align: center;
     text-decoration: none;
+
+    font-size: clamp(.5rem, 4vw, 1.2rem);
 }
 
-a:hover {
+.top-nav a:hover {
     text-shadow: 0px 1px 3px rgb(96, 231, 55);
 }
 
-/* header, main and other formatting goes below here but before footer */
+.top-nav a.push-right {
+    float: right;
+}
+
+/* Header styling below */
 
 header {
-    grid-area: header;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-    font-size: clamp(.7em, 5vw, 1.4em);
+    height: 33vh;
+}
+
+h1 {
+    font-size: 3rem;
+
     text-align: center;
-    text-shadow: 0px 2px 4px rgb(96, 231, 55);
 }
 
-hr {
-    border: 3px solid black;
-    box-shadow: 0px 3px 6px rgb(96, 231, 55);
-}
+/* Main styling below */
 
 main {
-    grid-area: main;
+    display: block;
 
     text-align: center;
-}
 
-main p {
-    margin: 25px auto;
-
-    text-align: justify;
-    letter-spacing: 1px;
-}
-
-h2{
-    font-size: 2.5em;
+    height: 50vh;
 }
 
 h3 {
-    font-size: 1.5em;
+    font-size: 1.35rem;
+    padding: 12px 0;
 }
 
-.text_box {
-    margin-top: 100px;
-    margin-left: 3vw;
-    margin-right: 5vw;
-    text-align: justify;
-
-    letter-spacing: 1px;
+main p {
+    padding: 12px 0;
 }
 
-/*code below is for brand html page main logo area*/
-
-.logo-box, #greeting {
-    width: 94vw;
-    height: auto;
-
-    margin-left: auto;
-    margin-right: auto;
-
-    box-sizing: border-box;
-    box-shadow: 0px 0px 6px #000000;
-    border: 3px solid #60e737;
-    border-radius: 8px;
-}
-
-.mission-box {
-    text-align: justify;
-    letter-spacing: 2px;
-
-    margin: 0% 9%;
-    padding: 0% 3%;
-}
-
-.color-pallette-box {
-    display: flex;
-    justify-content: center;
-    align-items: stretch;
-
-    margin: 0% 15%;
-}
-
-.card-box {
-    width: 200px;
-    height: 100px;
-
-    margin: 1% auto;
-}
-
-.tile {
-    width: 150px;
-    height: 25px;
-    
-    margin: 0px auto;
-
-    border: 1px solid #000000;
-    border-radius: 5px;
-}
-
-.font-box {
-    margin-bottom: 12vh;
-
-    font-size: clamp(.65em, 5vw, 1.3em);
-    letter-spacing: 9px;
-}
+/* Footer styling below */
 
 footer {
-    grid-area: footer;
-
-    font-size: clamp(.55em, 3vw, 1.1em);
-
-    color: black;
-}
-
-.brand {
     text-align: center;
 }
 
-#f_container {
-    margin: 25px 75px;
+.foot-nav {
+    overflow: hidden;
+}
 
+.foot-nav a {
     color: black;
 
     text-align: center;
-
-    padding: 45px 0;
-}
-
-#v_container {
-    margin: 25px 75px;
-
-    text-align: center;
-    text-shadow: 1px 1px 3px rgb(96, 231, 55);
-}
-
-#v_container a {
     text-decoration: none;
+
+    font-size: clamp(.3rem, 3vw, .8rem);
 }
 
-/* fizzbuzz0 */
+.foot-nav a.push-left {
+    float: left;
 
-#form {
-    border: none;
+    padding: 14px 16px;
 }
 
-legend {
-    text-align: left;
+.foot-nav a:hover {
+    text-shadow: 0px 1px 3px rgb(96, 231, 55);
 }
 
-/*font-size: clamp(.6em, 2vw, 1.2em);*/
+.foot-nav a.push-right {
+    float: right;
+
+    padding: 14px 16px;
+}
