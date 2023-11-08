@@ -103,7 +103,7 @@ footer {
     text-align: center;
     text-decoration: none;
 
-    font-size: clamp(.3rem, 3vw, .8rem);
+    font-size: clamp(.425rem, 3vw, .85rem);
 }
 
 .foot-nav a.push-left {
@@ -131,7 +131,7 @@ footer {
 }
 
 .index-main p {
-    padding: 0 200px;
+    padding: 35px 100px;
     font-size: clamp(.5rem, 5vw, 1rem);
 }
 
