@@ -136,9 +136,10 @@ footer {
 }
 
 .index-main a {
+    color: rgb(0, 0, 0);
     text-decoration: none;
 }
 
 .index-main a:visited{
-    color: black;
+    color: rgb(0, 0, 0);
 }
