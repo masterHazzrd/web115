@@ -131,10 +131,14 @@ footer {
 }
 
 .index-main p {
-    padding: 0 85px;
+    padding: 0 200px;
     font-size: clamp(.5rem, 5vw, 1rem);
 }
 
 .index-main a {
     text-decoration: none;
+}
+
+.index-main a:visited{
+    color: black;
 }
