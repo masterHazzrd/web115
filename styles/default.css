@@ -90,9 +90,6 @@ main {
     text-align: center;
 
     margin: 0 15px;
-
-    border: 1px solid rgb(96, 231, 55);
-    border-radius: 10px;
 }
 
 h3 {
@@ -176,6 +173,11 @@ footer {
 
 .home-main {
     height: fit-content;
+    
+    padding: 25px 0;
+
+    border: 1px solid rgb(96, 231, 55);
+    border-radius: 10px;
 }
 
 .home-main h2 {
@@ -186,12 +188,14 @@ footer {
     padding: 35px 0;;
 }
 
+/* Code below is for styling of the home page */
+
 #intro {
     margin: 25px 0;
     padding: 0 25px;
 }
 
-ul li p {
+ul li {
     text-align: justify;
     letter-spacing: 1px;
 
@@ -204,4 +208,8 @@ li {
 
 li::marker {
     content: "\2623";
+}
+
+#sub-list {
+    padding-left: 25px;
 }
