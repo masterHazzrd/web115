@@ -160,7 +160,7 @@ footer {
     letter-spacing: 1px;
 }
 
-.index-main a {
+.index-main, .text_box a {
     color: rgb(0, 0, 0);
     text-decoration: none;
 }
@@ -190,16 +190,17 @@ footer {
 
 /* Code below is for styling of the home page */
 
-#intro {
+#intro, #sub-list {
     margin: 25px 0;
     padding: 0 25px;
 }
 
-ul li {
+ul, ol li {
     text-align: justify;
     letter-spacing: 1px;
 
-    margin: 15px 10px;
+    margin-left: 0;
+    padding-left: 20px;
 }
 
 li {
@@ -210,6 +211,17 @@ li::marker {
     content: "\2623";
 }
 
-#sub-list {
-    padding-left: 25px;
+/* Contact page styling */
+
+h2 {
+    font-size: 2rem;
+}
+
+.text_box {
+    margin: 25px 150px;
+    padding: 0 20px;
+
+    text-align: justify;
+
+    letter-spacing: 1px;
 }
