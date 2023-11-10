@@ -195,7 +195,7 @@ footer {
     padding: 0 25px;
 }
 
-ul, ol li {
+ul ol li {
     text-align: justify;
     letter-spacing: 1px;
 
