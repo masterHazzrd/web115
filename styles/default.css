@@ -195,12 +195,12 @@ footer {
     padding: 0 25px;
 }
 
-ul ol li {
+li {
     text-align: justify;
     letter-spacing: 1px;
 
     margin-left: 0;
-    padding-left: 20px;
+    padding: 10px 20px;
 }
 
 li {
