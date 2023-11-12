@@ -14,6 +14,8 @@
 * {
     box-sizing: border-box;
 
+    background-color: #f0f0f0;
+
     margin: 0;
     padding: 0;
     
@@ -215,11 +217,67 @@ h2 {
     font-size: 2rem;
 }
 
-.text_box {
+.text_box, .mission-box {
     margin: 25px 150px;
     padding: 0 20px;
 
     text-align: justify;
 
     letter-spacing: 1px;
+}
+
+/*code below is for brand html page main logo area*/
+
+.logo-box, #greeting {
+    width: 94vw;
+    height: auto;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    box-sizing: border-box;
+    box-shadow: 0px 0px 6px #000000;
+    border: 3px solid #60e737;
+    border-radius: 8px;
+}
+
+.mission-box {
+    text-align: justify;
+    letter-spacing: 2px;
+
+    margin: 0% 9%;
+    padding: 0% 3%;
+}
+
+
+.color-pallette-box {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+
+    margin: 0% 15%;
+}
+
+.card-box {
+    width: 200px;
+    height: 100px;
+
+    margin: 1% auto;
+}
+
+.tile {
+    width: 150px;
+    height: 25px;
+    
+    margin: 0px auto;
+
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+
+.font-box {
+    margin-bottom: 12vh;
+
+    font-size: clamp(.65em, 5vw, 1.3em);
+    letter-spacing: 9px;
 }
