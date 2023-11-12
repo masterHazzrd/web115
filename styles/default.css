@@ -151,7 +151,9 @@ footer {
 
 /* Code below is for the styling of the index page */
 
-.index-main {}
+.index-main {
+    min-height: 51vh;
+}
 
 .index-main h2 {
     font-size: clamp(1.25rem, 5vw, 2.5rem);
@@ -220,6 +222,7 @@ h2 {
 .text_box, .mission-box {
     margin: 25px 150px;
     padding: 0 20px;
+    min-height: 44vh;
 
     text-align: justify;
 
