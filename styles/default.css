@@ -281,7 +281,7 @@ h2 {
 
 .font-box {
     margin-bottom: 12vh;
-    margin-top: 4%;
+    margin-top: 2%;
 
     font-size: clamp(.65em, 5vw, 1.3em);
     letter-spacing: 9px;
