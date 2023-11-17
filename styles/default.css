@@ -219,7 +219,7 @@ h2 {
     font-size: 2rem;
 }
 
-.text_box, .mission-box {
+.text_box {
     margin: 25px 150px;
     padding: 0 20px;
     min-height: 44vh;
