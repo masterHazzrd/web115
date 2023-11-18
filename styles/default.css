@@ -160,7 +160,7 @@ footer {
 }
 
 .index-main p {
-    padding: 25px 100px;
+    padding: 3% 6%;
     font-size: clamp(.5rem, 5vw, 1rem);
     letter-spacing: 1px;
 }
