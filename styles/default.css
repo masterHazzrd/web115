@@ -231,7 +231,7 @@ h2 {
 
 /*code below is for brand html page main logo area*/
 
-.logo-box, #greeting {
+.logo-box {
     width: 94vw;
     height: auto;
 
@@ -286,3 +286,6 @@ h2 {
     font-size: clamp(.65rem, 5vw, 1.3rem);
     letter-spacing: 9px;
 }
+
+/* Code below is for fizz buzz 0 */
+
