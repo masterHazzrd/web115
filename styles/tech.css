@@ -1,10 +1,45 @@
 * {
     box-sizing: border-box;
-  
+
     font-family: 'Courier New', Courier, monospace;
     font-size: 18px;
-  }
-  
-  header {
-    font-weight: 700px;
-  }
+}
+
+html {
+    min-width: 35%;
+
+    color: #0B0A07;
+    
+}
+
+#navbar {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 33%;
+    height: 100%;
+    border-right: 2px solid;
+    border-color: rgba(74, 80, 67, 0.35);
+}
+
+header {
+    color: #748067;
+    margin: 10px 16px;
+    text-align: left;
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
+#main-doc {
+    position: absolute;
+    margin-left: 34%;
+    text-align: center;
+}
+
+section article {
+    margin: 20px;
+}
+
+section li {
+    margin: 15px 0px 0px 20px;
+}
