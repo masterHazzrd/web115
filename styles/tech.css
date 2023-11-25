@@ -66,3 +66,32 @@ h3 {
 #main-doc #introduction header {
     text-align: center;
 }
+
+code {
+    display: block;
+    text-align: left;
+    position: relative;
+    word-break: normal;
+    word-wrap: normal;
+    line-height: 1.5rem;
+    background-color: rgba(115, 127, 102, 0.4);
+    color: #0B0A07;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+  }
+
+@media only screen and (max-width: 400px) {
+    #main-doc {
+      margin-left: -10px;
+    }
+  
+    code {
+      margin-left: -20px;
+      width: 100%;
+      padding: 15px;
+      padding-left: 10px;
+      padding-right: 45px;
+      min-width: 233px;
+    }
+  }
