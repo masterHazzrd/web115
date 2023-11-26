@@ -318,3 +318,12 @@ h2 {
     margin: 22px auto;
     padding-bottom: 80px;
 }
+
+#form #sButton {
+}
+
+#sButton {
+    padding: 6px;
+
+    letter-spacing: 1px;
+}
