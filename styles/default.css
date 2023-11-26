@@ -289,3 +289,45 @@ h2 {
 
 /* Code below is for fizz buzz 0 */
 
+#nav-img {
+    width: 17%;
+
+    margin: 32px;
+}
+
+#fb-greeting {
+    font-size: 1.35rem;
+}
+
+#form {
+    border: 5px solid rgb(96, 231, 55);
+    border-radius: 10px;
+}
+
+#form-legend {
+    font-size: 1.25rem;
+    letter-spacing: 1px;
+    padding: 0px 5px;
+}
+
+.form-info {
+    display: flex;
+    margin: 22px 44px;
+    padding: 12px;
+}
+
+.box-1 {
+    width: 33%;
+}
+
+.box-2 {
+    width: 22%;
+}
+
+.box-3 {
+    width: 43%;
+}
+
+.box-4 {
+    width: 22%;
+}
