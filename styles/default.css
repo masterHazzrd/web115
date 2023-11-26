@@ -300,7 +300,7 @@ h2 {
 }
 
 #form {
-    border: px solid rgb(96, 231, 55);
+    border: 5px double rgb(96, 231, 55);
     border-radius: 10px;
 }
 
@@ -316,4 +316,5 @@ h2 {
 
 .form-info div {    
     margin: 22px auto;
+    padding-bottom: 80px;
 }
