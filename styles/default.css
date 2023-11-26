@@ -300,7 +300,7 @@ h2 {
 }
 
 #form {
-    border: 5px solid rgb(96, 231, 55);
+    border: px solid rgb(96, 231, 55);
     border-radius: 10px;
 }
 
@@ -312,22 +312,8 @@ h2 {
 
 .form-info {
     display: flex;
-    margin: 22px 44px;
-    padding: 12px;
 }
 
-.box-1 {
-    width: 33%;
-}
-
-.box-2 {
-    width: 22%;
-}
-
-.box-3 {
-    width: 43%;
-}
-
-.box-4 {
-    width: 22%;
+.form-info div {    
+    margin: 22px auto;
 }
