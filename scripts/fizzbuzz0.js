@@ -1,20 +1,21 @@
-function displayModifiedPage() {
-    var f_Name = document.getElementById('f-name').value;
-    var m_Intial = document.getElementById('m-initial').value;
-    var l_Name = document.getElementById('l-name').value;
+function pageModification() {
 
+  const f_name = document.getElementById("f-name");
+  const m_init = document.getElementById("m-initial");
+  const l_name = document.getElementById("l-name");
 
+  const new_header = `Welcome! fellow, <strong id="fb-greeting">CleanEnergySmithers</strong>, ${f_name} ${m_init ? ' ' + middleInitial + '.' : ''} ${l_name}!`;
 
-    var number = parseInt(document.getElementById('numberInput').value);
-    var output = document.getElementById('output');
-  
-    if (name === '' || isNaN(number)) {
-      output.textContent = 'Please enter both your name and a valid number.';
-    } else {
-      var message = 'Welcome, ' + name + '! ';
-      for (var i = 0; i < number; i++) {
-        message += 'Stand message ';
-      }
-      output.textContent = message;
-    }
+  document.getElementById("greeting").textContent = new_header;
+
+  const number = document.getElementById("number");
+  const count = parseInt(number);
+
+  for (let i = 1; i <= count; i++) {
+    const reply = document.createElement('li');
+
+    reply.textContent = `${i} - Wattage number is ${i % 2 === 0 ? 'even' : 'odd'}`;
+
+    output.appendChild(reply);
   }
+}

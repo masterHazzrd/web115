@@ -305,24 +305,29 @@ h2 {
 }
 
 #form-legend {
-    font-size: 1.25rem;
-    letter-spacing: 1px;
+    font-size: 1.2rem;
+    letter-spacing: .5px;
     padding: 0px 5px;
 }
 
-.form-info {
-    display: flex;
+.form-info label, .form-info input {
+    display: inline-block;
 }
 
-.form-info div {    
-    margin: 22px auto;
-    padding-bottom: 80px;
+.form-info label {
+    text-align: left;
 }
 
-#form #sButton {
+.form-info input {
+    inline-size: 15%;
+}
+
+.form-info div {
+    margin: 10px;
 }
 
 #sButton {
+    margin: 12px;
     padding: 6px;
 
     letter-spacing: 1px;
