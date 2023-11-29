@@ -295,7 +295,7 @@ h2 {
     margin: 32px;
 }
 
-#fb-greeting {
+.fb-greeting {
     font-size: 1.35rem;
 }
 
@@ -325,8 +325,7 @@ h2 {
 .form-info div {
     margin: 10px;
 }
-
-#sButton {
+button {
     margin: 12px;
     padding: 6px;
 
