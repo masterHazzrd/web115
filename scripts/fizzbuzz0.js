@@ -1,5 +1,5 @@
-document.addEventListener("click", )
+let modifyPage = document.querySelector('button');
+let fName = document.getElementById('f-name');
 
-function pageModification() {
-  const  name = document.getElementById(f-name, m-initial, l-name).innerHTML = `Welcome fellow, <strong class="fb-greeting">CleanEnergySmithers</strong>! ${name}`
-}
+
+modifyPage.onclick = 
