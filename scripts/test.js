@@ -24,6 +24,17 @@ function modGreeting() {
         output_item.textContent = `Wattage ${i} - is ${i % 2 === 0 ? 'even' : 'odd'}`;
         output.appendChild(output_item);
     }
+
+    /*
+    setTimeout(function(){
+    location.reload();
+    }, 10000); */
 }
 
 document.getElementById('submit').addEventListener('click', modGreeting);
+
+function pageReset() {
+    location.reload();
+}
+
+document.getElementById('clear').addEventListener('click', pageReset);
