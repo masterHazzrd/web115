@@ -295,39 +295,14 @@ h2 {
     margin: 32px;
 }
 
-.fb-greeting {
+#greeting {
     font-size: 1.35rem;
+    letter-spacing: 1px;
 }
 
-#form {
+.form {
     border: 5px double rgb(96, 231, 55);
     border-radius: 10px;
-}
 
-#form-legend {
-    font-size: 1.2rem;
-    letter-spacing: .5px;
-    padding: 0px 5px;
-}
-
-.form-info label, .form-info input {
-    display: inline-block;
-}
-
-.form-info label {
-    text-align: left;
-}
-
-.form-info input {
-    inline-size: 15%;
-}
-
-.form-info div {
-    margin: 10px;
-}
-button {
-    margin: 12px;
-    padding: 6px;
-
-    letter-spacing: 1px;
+    padding: 15px 25px;
 }
