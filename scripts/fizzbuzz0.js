@@ -10,9 +10,15 @@ function modGreeting() {
 
     if (mInit.length > 0) {
         document.getElementById('greeting').innerHTML = 'Welcome CleanEnergySmither, ' + fName + ' ' + mInit + '. ' + lName +'!'; 
-    } else {
+    } else if (mInit === 0) {
         document.getElementById('greeting').innerHTML = 'Welcome CleanEnergySmither, ' + fName + ' ' + lName +'!'; 
+    } else if (fName !== '' && mInit === 0 && lName !== '' ) {
+        document.getElementById('greeting').innerHTML = 'Welcome CleanEnergySmither!'; 
     }
+
+    //Create new label and input
+    let newInput = document.createElement('label', 'input');
+    newInput.
 
     const output = document.getElementById('output_message')
     let count = document.getElementById('number').value
