@@ -25,11 +25,16 @@ function modGreeting() {
         output.appendChild(output_item);
     }
 
+    /*
     setTimeout(function(){
     location.reload();
-    }, 10000);
+    }, 10000); */
 }
 
-
-
 document.getElementById('submit').addEventListener('click', modGreeting);
+
+function pageReset() {
+    location.reload();
+}
+
+document.getElementById('clear').addEventListener('click', pageReset);
