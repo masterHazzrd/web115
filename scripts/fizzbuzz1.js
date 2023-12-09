@@ -10,19 +10,31 @@ function modGreeting() {
 
     if (mInit.length > 0) {
         document.getElementById('greeting').innerHTML = 'Welcome CleanEnergySmither, ' + fName + ' ' + mInit + '. ' + lName +'!'; 
-    } else {
+    } else if (fName.length !== 0 && mInit.length === 0 && lName.length !== 0) {
         document.getElementById('greeting').innerHTML = 'Welcome CleanEnergySmither, ' + fName + ' ' + lName +'!'; 
+    } else if (fName.length === 0 && mInit.length === 0 && lName.length === 0) {
+        document.getElementById('greeting').innerHTML = 'Welcome CleanEnergySmither!'; 
     }
 
     const output = document.getElementById('output_message')
-    let count = document.getElementById('number').value
+    let count = 140
 
     output.innerHTML = '';
 
     for (let i = 1; i <= count; i++) {
         const output_item = document.createElement('li');
-        output_item.textContent = `Wattage ${i} - is ${i % 2 === 0 ? 'even' : 'odd'}`;
-        output.appendChild(output_item);
+
+        if (i % 3 == 0 && i % 5 == 0) {
+            output_item.textContent = `${i} - buzz zapp!`;
+        } else if (i % 5 === 0) {
+            output_item.textContent = `${i} - zapp!`;
+        } else if (i % 3 === 0) {
+            output_item.textContent = `${i} - buzz!`;
+        } else {
+            output_item.textContent = `${i} - hum!`;
+        }
+        
+        output.appendChild(output_item);       
     }
 
     /*

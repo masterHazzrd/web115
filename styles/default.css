@@ -314,8 +314,9 @@ h2 {
 form ul {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
 
-    margin: 15px 0px 15px 150px;
+    margin: 15px 150px 15px 150px;
 }
 
 .form div
