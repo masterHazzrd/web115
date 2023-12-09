@@ -104,6 +104,10 @@ main p {
     padding: 12px 0;
 }
 
+main a{
+    color: #000000;
+}
+
 figcaption {
     letter-spacing: .5px;
 }
