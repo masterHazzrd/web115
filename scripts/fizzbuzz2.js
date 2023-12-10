@@ -17,18 +17,27 @@ function modGreeting() {
     }
 
     const output = document.getElementById('output_message')
+    
+    let num1 = document.getElementById('number1').value
+    let num2 = document.getElementById('number2').value
+
+    let num_1 = parseInt(num1)
+    let num_2 = parseInt(num2)
+
     let count = 140
+
+    console.log(num_1 + ', ' + num_2)
 
     output.innerHTML = '';
 
     for (let i = 1; i <= count; i++) {
         const output_item = document.createElement('li');
 
-        if (i % 3 == 0 && i % 5 == 0) {
+        if (i % num1 == 0 && i % num2 == 0) {
             output_item.textContent = `${i} - buzz zapp!`;
-        } else if (i % 5 === 0) {
+        } else if (i % num2 === 0) {
             output_item.textContent = `${i} - zapp!`;
-        } else if (i % 3 === 0) {
+        } else if (i % num1 === 0) {
             output_item.textContent = `${i} - buzz!`;
         } else {
             output_item.textContent = `${i} - hum!`;
